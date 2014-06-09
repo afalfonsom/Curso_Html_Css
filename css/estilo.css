@@ -32,9 +32,9 @@ header figure{
 }
 
 header figure img{
-	width: 60px;
-	height: 60px;
 	border-radius: 50%;
+	height: 60px;
+	width: 60px;
 
 }
 
@@ -97,26 +97,26 @@ section article.receta figure img{
 
 }
 section article.receta div{
- width: 90%;
- margin: 30px 4% 10px 5%;
- border-width: 2px;
- border-style: solid;
- position: relative;
- padding-top: 20px;
- font-size:  0.9em;
  border-radius: 15px;
+ border-style: solid;
+ border-width: 2px;
+ font-size:  0.9em;
+ margin: 30px 4% 10px 5%;
+ padding-top: 20px;
+ position: relative;
+ width: 90%;
 
 }
 
 section article.receta div span{
-	position: absolute;
-	top: -15px;
+	background-color: white;
+	border-radius: 15px;
 	left: 10px;
 	line-height: 20px;
-	border-radius: 15px;
-	text-decoration:  underline;
-	background-color: white;
 	padding: 3px 10px;
+	position: absolute;
+	text-decoration:  underline;
+	top: -15px;
 }
 
 section article.receta div ul{
@@ -127,10 +127,10 @@ section article.receta div ul{
 }
 
 section article.receta div ul li{
-	font-weight: bolder;
-	vertical-align: middle;
 	display:  inline-block;
+	font-weight: bolder;
 	margin: 5px 3%;
+	vertical-align: middle;
 	width: 26%;
 }
 section article.receta h2{
@@ -141,8 +141,8 @@ section article.receta h2{
 }
 section article.receta p{
 	font-size: :0.8;
-	text-align: justify;
 	margin: 15px 10px 5px 30px;
+	text-align: justify;
 }
 
 section article.receta span.tipo{
