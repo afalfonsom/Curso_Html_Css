@@ -20,7 +20,24 @@ body{
 	font-family: 'Gochi Hand', cursive;
 	font-size: 16px;
 }
+footer{
+	height: 50px;
+	margin-top: 0.5px;
+	text-align: center;
+	line-height: 50px;
+	color: #f7f7f7;
+	font-size: 0.8em;
+	background: #f0b7a1; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #f0b7a1 0%, #8c3310 17%, #7c7001 49%, #8c3310 76%, #8c3310 76%, #8c3310 96%, #bf6e4e 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#f0b7a1), color-stop(17%,#8c3310), color-stop(49%,#7c7001), color-stop(76%,#8c3310), color-stop(76%,#8c3310), color-stop(96%,#8c3310), color-stop(100%,#bf6e4e)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #f0b7a1 0%,#8c3310 17%,#7c7001 49%,#8c3310 76%,#8c3310 76%,#8c3310 96%,#bf6e4e 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #f0b7a1 0%,#8c3310 17%,#7c7001 49%,#8c3310 76%,#8c3310 76%,#8c3310 96%,#bf6e4e 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #f0b7a1 0%,#8c3310 17%,#7c7001 49%,#8c3310 76%,#8c3310 76%,#8c3310 96%,#bf6e4e 100%); /* IE10+ */
+background: linear-gradient(135deg,  #f0b7a1 0%,#8c3310 17%,#7c7001 49%,#8c3310 76%,#8c3310 76%,#8c3310 96%,#bf6e4e 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
+
+}
 header{
 	background-color: #604214;
 	text-align: right;
