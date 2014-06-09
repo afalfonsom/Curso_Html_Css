@@ -40,18 +40,18 @@ header figure img{
 
 header h1{
 	color: #f7f7f7;
+	display: block;
 	float: left;
 	font-size: 1.6em;
-	display: block;
 	margin: 7px 80px 0px 50px;
 	padding: 0px;
 }
 
 header nav ul{
-	padding: 0px;
-	margin: 0px;
-	text-align: center;
 	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
 }
 
 header nav ul li{
@@ -97,14 +97,14 @@ section article.receta figure img{
 
 }
 section article.receta div{
- border-radius: 15px;
- border-style: solid;
- border-width: 2px;
- font-size:  0.9em;
- margin: 30px 4% 10px 5%;
- padding-top: 20px;
- position: relative;
- width: 90%;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 2px;
+	font-size:  0.9em;
+	margin: 30px 4% 10px 5%;
+	padding-top: 20px;
+	position: relative;
+	width: 90%;
 
 }
 
@@ -146,7 +146,7 @@ section article.receta p{
 }
 
 section article.receta span.tipo{
-	/*color: #f7f7f7;*/
+	color: #f7f7f7;
 	border-radius: 15px 15px 0px 0px; 
 	border-style: solid;
 	border-width: 2px;
@@ -159,6 +159,118 @@ section article.receta span.tipo{
 	top: -38px;
 
 }
+
+/************************************/
+
+/**COLORES DE LA CATEGORIA DESAYUNO**/
+
+/************************************/
+
+section article.desayuno,
+section article.desayuno figure img,
+section article.desayuno div,
+section article.desayuno span.tipo{
+	border-color: #082E0B;
+}
+
+section article.desayuno h2{
+	color: #154419;
+}
+
+section article.desayuno span.tipo,
+section article.desayuno div,
+section article.desayuno div span{
+	background-color: #154419;
+
+}
+
+section article.desayuno p{
+	color: #3E7242;
+}
+
+section article.desayuno{
+	background-color: #C0EE90;
+}
+
+section article.desayuno div span,
+section article.desayuno div ul li{
+	color: #9CD95C;
+}
+
+
+/***********************************************************
+******************** COLORES POSTRE ************************
+***********************************************************/
+
+/* COLOR 1 */
+section article.postre,
+section article.postre figure img,
+section article.postre div,
+section article.postre span.tipo{
+	border-color: #1B0C02;
+}
+/* COLOR 2 */
+section article.postre h2{
+	color: #5A3107;
+}
+
+section article.postre span.tipo,
+section article.postre div,
+section article.postre div span{
+	background-color: #5A3107;
+}
+/* COLOR 3 */
+section article.postre p{
+	color: #97521E;
+}
+/* COLOR 4 */
+
+section article.postre{
+	background-color: #B29178;
+}
+/* COLOR 5 */
+section article.postre div span,
+section article.postre div ul li{
+	color: #F5CBA2;
+}
+
+/***********************************************************
+********************* COLORES PESCADO **********************
+***********************************************************/
+
+/* COLOR 1 */
+section article.pescado,
+section article.pescado figure img,
+section article.pescado div,
+section article.pescado span.tipo{
+	border-color: #020F2B;
+}
+/* COLOR 2 */
+section article.pescado h2{
+	color: #08215B;
+}
+
+section article.pescado span.tipo,
+section article.pescado div,
+section article.pescado div span{
+	background-color: #08215B;
+}
+/* COLOR 3 */
+section article.pescado p{
+	color: #335093;
+}
+/* COLOR 4 */
+
+section article.pescado{
+	background-color: #ADE0F0;
+}
+/* COLOR 5 */
+section article.pescado div span,
+section article.pescado div ul li{
+	color: #9DB7F5;
+}
+
+
  /* con este estilo de media screen lo que estoy haciendo es que cuando
  el ancho del componente es mayor a 480px me le asigne determinadas caracteristicas*/
  @media screen and (min-width: 480px ){
