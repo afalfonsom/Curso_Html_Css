@@ -28,13 +28,13 @@ footer{
 	color: #f7f7f7;
 	font-size: 0.8em;
 	background: #f0b7a1; /* Old browsers */
-background: -moz-linear-gradient(-45deg,  #f0b7a1 0%, #8c3310 17%, #7c7001 49%, #8c3310 76%, #8c3310 76%, #8c3310 96%, #bf6e4e 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#f0b7a1), color-stop(17%,#8c3310), color-stop(49%,#7c7001), color-stop(76%,#8c3310), color-stop(76%,#8c3310), color-stop(96%,#8c3310), color-stop(100%,#bf6e4e)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(-45deg,  #f0b7a1 0%,#8c3310 17%,#7c7001 49%,#8c3310 76%,#8c3310 76%,#8c3310 96%,#bf6e4e 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(-45deg,  #f0b7a1 0%,#8c3310 17%,#7c7001 49%,#8c3310 76%,#8c3310 76%,#8c3310 96%,#bf6e4e 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(-45deg,  #f0b7a1 0%,#8c3310 17%,#7c7001 49%,#8c3310 76%,#8c3310 76%,#8c3310 96%,#bf6e4e 100%); /* IE10+ */
-background: linear-gradient(135deg,  #f0b7a1 0%,#8c3310 17%,#7c7001 49%,#8c3310 76%,#8c3310 76%,#8c3310 96%,#bf6e4e 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	background: -moz-linear-gradient(-45deg,  #f0b7a1 0%, #8c3310 17%, #7c7001 49%, #8c3310 76%, #8c3310 76%, #8c3310 96%, #bf6e4e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#f0b7a1), color-stop(17%,#8c3310), color-stop(49%,#7c7001), color-stop(76%,#8c3310), color-stop(76%,#8c3310), color-stop(96%,#8c3310), color-stop(100%,#bf6e4e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  #f0b7a1 0%,#8c3310 17%,#7c7001 49%,#8c3310 76%,#8c3310 76%,#8c3310 96%,#bf6e4e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  #f0b7a1 0%,#8c3310 17%,#7c7001 49%,#8c3310 76%,#8c3310 76%,#8c3310 96%,#bf6e4e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  #f0b7a1 0%,#8c3310 17%,#7c7001 49%,#8c3310 76%,#8c3310 76%,#8c3310 96%,#bf6e4e 100%); /* IE10+ */
+	background: linear-gradient(135deg,  #f0b7a1 0%,#8c3310 17%,#7c7001 49%,#8c3310 76%,#8c3310 76%,#8c3310 96%,#bf6e4e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 
 }
@@ -87,73 +87,40 @@ header nav ul li a{
 }
 
 section{
+	margin-top: 50px;
 	background: url(../imagenes/fondo.jpg);
 	background-repeat: no-repeat;
 }
 
 section article.receta{
-	border-radius: 0px 0px 15px 15px;
-	border-style: solid;
 	border-width: 2px;
-	display: inline-block;
-	font-size: 1.2em;
-	margin: 50px 0px 20px 10%;
-	position: relative;
-	vertical-align: top;
+	border-style: solid;
 	width: 85%;
-}
+	margin: 50px 0px 20px 10%;
+	display: inline-block;
+	position: relative;
+	border-radius: 0px 0px 15px 15px;
+	vertical-align: top;
+	font-size: 1.2em;
 
+	
+
+}
 section article.receta figure{
+	margin:0px;
+	padding: 0px;
+	/*position: absolute;*/
+
 	float: left;
-	margin-left: -30px;
 	margin-top: -50px;
-
+	margin-left: -30px;
 }
-
 section article.receta figure img{
 	border-radius: 50%;
-	border-style: solid;
 	border-width: 5px;
-	height: 140px;
-	width: 180px;
-
-}
-section article.receta div{
-	border-radius: 15px;
 	border-style: solid;
-	border-width: 2px;
-	font-size:  0.9em;
-	margin: 30px 4% 10px 5%;
-	padding-top: 20px;
-	position: relative;
-	width: 90%;
-
-}
-
-section article.receta div span{
-	background-color: white;
-	border-radius: 15px;
-	left: 10px;
-	line-height: 20px;
-	padding: 3px 10px;
-	position: absolute;
-	text-decoration:  underline;
-	top: -15px;
-}
-
-section article.receta div ul{
-	list-style: none;
-	margin: 0px;
-	padding: 0px;
-
-}
-
-section article.receta div ul li{
-	display:  inline-block;
-	font-weight: bolder;
-	margin: 5px 3%;
-	vertical-align: middle;
-	width: 26%;
+	width: 180px;
+	height: 140px;
 }
 section article.receta h2{
 	padding: 0px;
@@ -162,23 +129,55 @@ section article.receta h2{
 	font-size: 1.2em;
 }
 section article.receta p{
-	font-size: :0.8;
 	margin: 15px 10px 5px 30px;
+	font-size: 0.8em;
 	text-align: justify;
+}
+section article.receta div{
+	width: 90%;
+	margin: 30px 5% 10px 5%;
+	border-width: 2px;
+	border-style: solid;
+	position: relative;
+	padding-top: 20px;
+	font-size: 0.9em;
+	border-radius: 15px;
+}
+section article.receta div span{
+	background-color: white;
+	position: absolute;
+	line-height: 20px;
+	top: -15px;
+	left: 10px;
+	padding: 3px 10px;
+	border-radius: 15px;
+	text-decoration: underline;
+}
+section article.receta div ul{
+	margin:0px;
+	padding: 0px;
+	list-style: circle;
+}
+section article.receta div ul li{
+	display: inline-block;
+	margin: 5px 3%;
+	width: 26%;
+	font-weight: bolder;
+	vertical-align: middle;
 }
 
 section article.receta span.tipo{
-	color: #f7f7f7;
-	border-radius: 15px 15px 0px 0px; 
-	border-style: solid;
-	border-width: 2px;
-	font-weight: bolder;
-	height: 30px;
-	line-height: 30px;
-	padding: 2px 10px;
 	position: absolute;
 	right: -2px;
+	height: 30px;
 	top: -38px;
+	border-width: 2px;
+	border-style: solid;
+	line-height: 30px;
+	padding: 2px 10px;
+	border-radius: 15px 15px 0px 0px;
+	font-weight: bolder;
+	color: #F7F7F7;
 
 }
 
@@ -292,35 +291,88 @@ section article.pescado div ul li{
 	color: #9DB7F5;
 }
 
+section div.news{
+	width: 30%;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-right: 10px;
+	float: right;
+	padding-bottom: 20px;
+	display: none;
+}
+
+
+section div.news article.post{
+	width: 95%;
+	margin-left: 2%;
+	border-top: 3px solid #440A4E;
+	margin-top: 35px;
+}
+section div.news h2{
+	text-align: center;
+
+}
+section div.news h3{
+	margin-left: 85px;
+}
+section div.news figure{
+	float: left;
+	margin-top: 10px;
+}
+section div.news figure img{
+	width: 70px;
+}
+section div.news p{
+	font-style: italic;
+	font-size: 0.8em;
+	text-align: justify;
+	margin:  5px 5% 20px 5%;
+}
+section div.news video{
+	width: 90%;
+	margin: 0px 5%;
+}
+
 
  /* con este estilo de media screen lo que estoy haciendo es que cuando
  el ancho del componente es mayor a 480px me le asigne determinadas caracteristicas*/
- @media screen and (min-width: 480px ){
+ @media screen and (min-width: 480px){
  	header nav ul li{
  		width: 22%;
+ 		text-align: center;
  	}
+ 	
  }
-
   /* con este estilo de media screen lo que estoy haciendo es que cuando
   el ancho del componente es mayor a 767px me le asigne determinadas caracteristicas*/
-  @media screen and (min-width: 767px ){
+  @media screen and (min-width: 767px){
   	header nav ul li{
   		width: 8%;
+  		margin: 10px 0px 0px 0px;
+  		text-align: center;
   	}
+  	
+
   	section article.receta{
   		width: 40%;
   		margin: 50px 3% 20px 6%;
   	}
 
+  	div#InicioAncho{
+  		display: inline;
+  	}
   }
  /* con este estilo de media screen lo que estoy haciendo es que cuando
  el ancho del componente es mayor a 950px me le asigne determinadas caracteristicas*/
- @media screen and (min-width: 950px ){
-
+ @media screen and (min-width: 950px){
+ 	
  	section article.receta{
  		width: 26%;
  		margin: 50px 1% 20px 5%;
  	}
- 	
- }
+ 	section div.news{
+ 		display: inline;
+ 	}
 
+ }
