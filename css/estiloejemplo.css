@@ -1,0 +1,73 @@
+/*
+ El fomrmato en css para trabajar es el siguiente:
+ primero se pone el nombre de la etiqueta HTML a la cual
+ le quiero dar el estilo, como segundo paso se abre corchete
+ luego va la propiedad del estilo que le voy a poner
+ dos puntos y el valor de la propiedad seguido de ;
+
+ asi:
+
+ etiqueta{
+	propiedad: valor;
+ }
+ */
+
+/* hay que tener encuenta la ruta del elemento que queremos dar formato 
+de la siguiente manera */
+header nav ul li a{
+	color: red;
+}
+
+/*
+ De esta forma podemos llamar a un elemento HTML en el cual le defiimos
+ la carateristica class
+ */
+ header nav ul li a.amarillo{
+ 	color: yellow;
+ 	background-color: black;
+ }
+
+/*
+ De esta forma podemos llamar a un elemento HTML en el cual le defiimos
+ la carateristica id
+ */
+ header nav ul li a#verde{
+ 	color: green;
+ 	background-color: orange;
+ }
+
+
+/*
+ Esto permite redimencionar la pantalla
+ dependiendo del tamaño de la ventan pero en este
+ caso sera para moviles
+ */
+
+ section article{
+ 	width: 300px;
+ 	height: 200px;
+ 	background-color: red;
+ }
+ /* con este estilo de media screen lo que estoy haciendo es que cuando
+ el ancho del componente es mayor a 480px me le asigne determinadas caracteristicas*/
+ @media screen and (min-width: 480px ){
+ 	section article{
+ 		background-color: green;
+ 	}
+ }
+
+  /* con este estilo de media screen lo que estoy haciendo es que cuando
+ el ancho del componente es mayor a 480px me le asigne determinadas caracteristicas*/
+ @media screen and (min-width: 767px ){
+ 	section article{
+ 		background-color: blue;
+ 	}
+ }
+ /* con este estilo de media screen lo que estoy haciendo es que cuando
+ el ancho del componente es mayor a 480px me le asigne determinadas caracteristicas*/
+ @media screen and (min-width: 950px ){
+ 	section article{
+ 		background-color: orange;
+ 	}
+ }
+
